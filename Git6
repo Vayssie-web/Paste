@@ -1,0 +1,13 @@
+vayssie@vayssie-G3-3590:~/Documents/my-website-oops$ git log --oneline
+f4857b5 (HEAD -> master) Title
+20bda15 Index structure
+e31d14e Create
+vayssie@vayssie-G3-3590:~/Documents/my-website-oops$ git revert HEAD
+[master 8d65245] Revert "Title"
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+vayssie@vayssie-G3-3590:~/Documents/my-website-oops$ git log --oneline
+8d65245 (HEAD -> master) Revert "Title"
+f4857b5 Title
+20bda15 Index structure
+e31d14e Create
+vayssie@vayssie-G3-3590:~/Documents/my-website-oops$
