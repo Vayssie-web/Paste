@@ -1,0 +1,11 @@
+<?php
+
+$firstMovie = "Indiana Jones and the Last Crusade";
+$watchMovie = true;
+$releaseDate = 1989;
+$rateImdb = 8.2;
+
+echo "$firstMovie<br/>";
+echo "$watchMovie<br/>";
+echo "$releaseDate<br/>";
+echo "$rateImdb<br/>";
