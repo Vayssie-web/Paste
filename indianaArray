@@ -1,0 +1,16 @@
+<?php
+
+$indianaMovies[] = 'Indiana Jones and the Raiders of the Lost Ark';
+$indianaMovies[] = 'Indiana Jones and the Temple of Doom';
+$indianaMovies[] = 'Indiana Jones and the Last Crusade';
+$yearsMovies ['Indiana Jones and the Raiders of the Lost Ark'] = 1981;
+$yearsMovies ['Indiana Jones and the Temple of Doom'] = 1984;
+$yearsMovies ['Indiana Jones and the Last Crusade'] = 1989;
+
+asort ($yearsMovies);
+
+foreach ($yearsMovies as $release => $yearsMovies){
+   
+    echo "$yearsMovies - ";
+    echo "$release <br/>";
+}
