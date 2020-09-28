@@ -1,0 +1,14 @@
+<?php
+$indianaMovies = [
+    'Indiana Jones and the Raiders of the Lost Ark'=> ['Harrison Ford','Karen Allen','Ronald Lacey' ],
+    'Indiana Jones and the Temple of Doom'=> ['Harrison Ford', 'Jonathan Ke Quan','Kate Capshaw'],
+    'Indiana Jones and the Last Crusade'=> ['Harrison Ford','Alison Doody','Sean Connery']
+];
+
+foreach ($indianaMovies as $firstKey=>$firstValue){
+    echo "Dans le film $firstKey, les principaux acteurs sont :\n";
+    foreach($firstValue as $secondKey){
+        echo "$secondKey\n";
+    }
+    echo "<br/>";
+}
