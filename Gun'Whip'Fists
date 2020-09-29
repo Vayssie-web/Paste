@@ -1,0 +1,18 @@
+<?php
+
+$weapons = ['fists', 'whip', 'gun'];
+$opponentWeapon = $weapons[rand(0,2)]; 
+echo "Opponnent play with $opponentWeapon";
+
+
+if ($opponentWeapon === 'fists'){
+        $indyWeapon = 'gun';
+}   elseif ($opponentWeapon === 'whip'){
+        $indyWeapon = 'fists';
+}   elseif ($opponentWeapon === 'gun'){
+        $indyWeapon = 'whip';
+}   else{
+        echo "U know nothing John Snow";
+}
+
+echo ", Indiana grab a $indyWeapon, and win!!";
